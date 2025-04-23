@@ -1,50 +1,60 @@
-# Welcome to your Expo app 👋
+# WorkNote 📝
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+WorkNote is a professional mobile application designed to help electricians and contractors efficiently create job logs and estimates. Built with React Native and Expo, it provides a clean, intuitive interface for documenting work details and generating professional documentation.
 
-## Get started
+## Features ✨
+
+- **Job Log Creation**: Quickly generate detailed job logs with a professional format
+- **Estimate Generation**: Create accurate estimates for potential projects
+- **Clean UI**: Modern, paper-themed interface for a professional look
+- **Easy Sharing**: Copy generated content to clipboard for easy sharing
+- **Offline Support**: Work without an internet connection
+
+## Getting Started 🚀
 
 1. Install dependencies
-
    ```bash
    npm install
    ```
 
-2. Start the app
-
+2. Start the development server
    ```bash
-    npx expo start
+   npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Run the app on your preferred platform:
+   - iOS Simulator (requires macOS)
+   - Android Emulator
+   - Physical device using Expo Go
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Usage 📱
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Create Job Log**
+   - Enter work details (e.g., "Installed GFCI outlet, 2 hours, $85/hr")
+   - Generate a professional job log
+   - Copy and share with clients
 
-## Get a fresh project
+2. **Generate Estimate**
+   - Describe the proposed work
+   - Get a detailed estimate breakdown
+   - Share with potential clients
 
-When you're ready, run:
+## Development 🛠️
 
-```bash
-npm run reset-project
-```
+This project uses:
+- React Native with Expo
+- TypeScript for type safety
+- File-based routing
+- Modern React patterns and hooks
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Contributing 🤝
 
-## Learn more
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-To learn more about developing your project with Expo, look at the following resources:
+## License 📄
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Join the community
+## Support 💬
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For support, please open an issue in the GitHub repository.
